@@ -1,0 +1,66 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+}
+
+.container-buttons {
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+button {
+    background-color: #c7e008;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    width: 110px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+
+}
+
+li {
+    border: 2px solid #990733;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+img{
+    width: 100%;
+    height: 186px;
+}
+
+p{
+    color: #ffffff;
+}
+
+.item-price{
+    font-weight: bold;
+    color: #79cb15;
+}
